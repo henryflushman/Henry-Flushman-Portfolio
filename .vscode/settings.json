@@ -1,0 +1,21 @@
+{
+    "python.linting.enabled":  true,
+    "terminal.integrated.profiles.windows":  {
+                                                 "Command Prompt (PortfolioEnv)":  {
+                                                                                       "args":  [
+                                                                                                    "/K",
+                                                                                                    "C:\\Users\\hlflu\\anaconda3\\Scripts\\activate.bat \u0026\u0026 conda activate PortfolioEnv"
+                                                                                                ],
+                                                                                       "path":  "C:\\WINDOWS\\System32\\cmd.exe"
+                                                                                   }
+                                             },
+    "python.defaultInterpreterPath":  "C:\\Users\\hlflu\\anaconda3\\envs\\PortfolioEnv\\python.exe",
+    "terminal.integrated.defaultProfile.windows":  "Command Prompt (PortfolioEnv)",
+    "python.linting.flake8Enabled":  true,
+    "python.formatting.provider":  "black",
+    "[python]":  {
+                     "editor.defaultFormatter":  "ms-python.python",
+                     "editor.formatOnSave":  true
+                 },
+    "python.analysis.typeCheckingMode":  "basic"
+}
